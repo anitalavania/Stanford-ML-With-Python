@@ -14,7 +14,7 @@ from warmUpExercise import *
 warmUpExercise(n)
 
 print("Loading and plotting data from ex1data1.txt... \n")
-filename = '/home/anita/Learning/Machine_learning/Take-2/machine-learning-ex1/ex1/ex1data1.txt'
+filename = 'ex1data1.txt'
 data = np.loadtxt(filename, delimiter=',', dtype='float') #, skiprows=90) #, dtype='float') 
 print(data)
 
