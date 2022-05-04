@@ -5,7 +5,7 @@ from mpl_toolkits.mplot3d import Axes3D
 import sys				#for importing modules from a different directory
 
 print("Loading and plotting data from ex1data1.txt... \n")
-filename = '/home/anita/Learning/Machine_learning/Take-2/machine-learning-ex1/ex1/ex1data2.txt'
+filename = 'ex1data2.txt'
 data = np.loadtxt(filename, delimiter=',', dtype='float') #, skiprows=90) #, dtype='float') 
 #print(data)
 
